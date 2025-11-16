@@ -1,6 +1,6 @@
 function print_currently_selected_option() {
     //  Displays "D" followed by the selected dice value (e.g., "D6", "D20")
-    basic.showString("D" + ("" + ("" + options[choice])))
+    basic.showString("D" + ("" + ("" + ("" + options[choice]))))
 }
 
 bluetooth.onBluetoothConnected(function on_bluetooth_connected() {
@@ -9,7 +9,7 @@ bluetooth.onBluetoothConnected(function on_bluetooth_connected() {
 function d8() {
     
     result = randint(1, 8)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
@@ -26,21 +26,21 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
 function d100() {
     
     result = randint(1, 100)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
 function d6() {
     
     result = randint(1, 6)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
 function d4() {
     
     result = randint(1, 4)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
@@ -59,7 +59,7 @@ function output() {
 function d10() {
     
     result = randint(1, 10)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
@@ -87,14 +87,14 @@ input.onGesture(Gesture.Shake, function on_gesture_shake() {
 function d20() {
     
     result = randint(1, 20)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
 function d12() {
     
     result = randint(1, 12)
-    resultSTR = "" + ("" + result)
+    resultSTR = "" + ("" + ("" + result))
     output()
 }
 
